@@ -89,6 +89,14 @@ h1,
     padding-top: 6rem;
     padding-bottom:6rem;
 }
+/*******Project Cards Styles*******/
+.projectCard{
+    width: 18rem;
+}
+
+
+
+
 
 /*------- MEDIA QUERIES-------*/
 
