@@ -5,7 +5,7 @@
     --tt-body-font: 'Roboto',
         sans-serif;
     --tt-primarycolor: #8a8a8a;
-    --tt-secondarycolor: #4294BA;
+    --tt-secondarycolor: #1f1f1f;
     --tt-dark-color: #b4a75e;
     --tt-light-color: #000000;
     --tt-font-size: 1.2rem;
@@ -54,6 +54,11 @@ h1,
 375x150
 */
 
+/* NavBar Styling*/
+.navbarBG{
+    background-color: var(--tt-dark-color);
+}
+
 /* styling the main title*/
 .mainTitle {
     font-family: var(--title-font);
@@ -82,12 +87,18 @@ h1,
     height: 274px;
     background-repeat: no-repeat;
     background-position: left 0px top 74px;
+    padding-left: 5rem;
 }
 
 .section-page {
     height: 100%;
     padding-top: 6rem;
     padding-bottom: 6rem;
+}
+
+
+.socal-links>a {
+    color: rgb(94, 2, 168);
 }
 
 /*******Project Cards Styles*******/
@@ -165,12 +176,13 @@ h1,
         background-image: url(/img/new-york-city-colors-1200.jpg);
         height: 474px;
     }
-     .mainTitle {
-         font-family: var(--title-font);
-         font-size: 7.0rem;
-         line-height: 5.25rem;
 
-     }
+    .mainTitle {
+        font-family: var(--title-font);
+        font-size: 7.0rem;
+        line-height: 5.25rem;
+
+    }
 
 
     .subTitle {
@@ -198,7 +210,7 @@ h1,
 
     .subTitle {
         font-family: var(--subtitle-font);
-        font-size:2.0rem;
+        font-size: 2.0rem;
         line-height: 1rem;
         font-weight: 300;
         letter-spacing: .08rem;
@@ -210,12 +222,13 @@ h1,
         background-image: url(/img/new-york-city-colors-2560.jpg);
         height: 874px;
     }
+
     .mainTitle {
         font-family: var(--title-font);
         font-size: 7.0rem;
         line-height: 5.25rem;
         Letter-spacing: .20rem;
-        
+
 
     }
 
