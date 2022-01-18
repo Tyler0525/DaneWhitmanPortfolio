@@ -56,7 +56,8 @@ h1,
 
 /* NavBar Styling*/
 .navbarBG{
-    background-color: var(--tt-dark-color);
+    background-color: var(--tt-dark-color)
+    
 }
 
 /* styling the main title*/
