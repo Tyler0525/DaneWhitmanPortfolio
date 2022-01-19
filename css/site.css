@@ -6,7 +6,7 @@
         sans-serif;
     --tt-primarycolor: #8a8a8a;
     --tt-secondarycolor: #1f1f1f;
-    --tt-dark-color: #b4a75e;
+    --tt-dark-color: #127c62;
     --tt-light-color: #000000;
     --tt-font-size: 1.2rem;
     --tt-font-weight: 400;
@@ -61,13 +61,13 @@ h1,
 }
 
 a.nav-link {
-    color: #b4a75e !important;
+    color: #127c62 !important;
 }
 
 
 /* styling the main title*/
 .mainTitle {
-    color:#b4a75e;
+    color:#ffffff;
     font-family: var(--title-font);
     font-size: 2.5rem;
     line-height: 10rem;
@@ -80,24 +80,13 @@ a.nav-link {
 }
 
 .subTitle {
-    color:#000000;
+    color:#ffffff;
     font-family: var(--subtitle-font);
     font-size: .55rem;
     line-height: 1rem;
     font-weight: 300;
     letter-spacing: .08rem;
 }
-
-
-.mainHeader {
-    padding-top: calc(2em + 74px);
-    background-image: url(/img/new-york-city-colors-576.jpg);
-    height: 274px;
-    background-repeat: no-repeat;
-    background-position: left 0px top 74px;
-    padding-left: 5rem;
-}
-
 .section-page {
     height: 100%;
     padding-top: 6rem;
@@ -106,14 +95,46 @@ a.nav-link {
 
 
 .bi {
-    color: #a385c5;
+    color: #b3650b;
 }
 
 .btn {
-    color: #000000;
-    background-color: #a385c5;
-    
+    color: #127c62;
+    background-color: #000000;
+
 }
+
+
+.mainHeader {
+    padding-top: calc(2em + 74px);
+    background-image: url(/img/989511\ 576.jpg);
+    height: 374px;
+    background-repeat: no-repeat;
+    background-position: left 0px top 74px;
+    padding-left: 2rem;
+}
+ .mainTitle {
+     font-family: var(--title-font);
+     font-size: 4.5rem;
+     line-height: 3.5rem;
+
+ }
+
+ /*sizing the logo for the header*/
+ .mainLogo {
+     height: .6em;
+ }
+
+ .subTitle {
+     font-family: var(--subtitle-font);
+     font-size: 1.1rem;
+     line-height: 1rem;
+     font-weight: 300;
+     letter-spacing: .08;
+ }
+
+
+
 
 /*******Project Cards Styles*******/
 .projectCard {
@@ -133,8 +154,8 @@ a.nav-link {
 /* small devices (landscape phones 576px and up) */
 @media (min-width: 575.98px) {
     .mainHeader {
-        background-image: url(/img/new-york-city-colors-768.jpg);
-        height: 374px;
+        background-image: url(/img/989511\ 768.jpg);
+        height: 474px;
     }
 
     /* styling the main title*/
@@ -163,8 +184,8 @@ a.nav-link {
 
 @media (min-width:767.98px) {
     .mainHeader {
-        background-image: url(/img/new-york-city-colors-992\(2\).jpg);
-        height: 374px;
+        background-image: url(/img/989511\ 992.jpg);
+        height: 474px;
     }
 
     /* styling the main title*/
@@ -191,8 +212,8 @@ a.nav-link {
 
 @media (min-width: 991.98px) {
     .mainHeader {
-        background-image: url(/img/new-york-city-colors-1200.jpg);
-        height: 474px;
+        background-image: url(/img/989511\ 1200.jpg);
+        height: 574px;
     }
 
     .mainTitle {
@@ -215,8 +236,8 @@ a.nav-link {
 
 @media (min-width:1199.98px) {
     .mainHeader {
-        background-image: url(/img/new-york-city-colors-1399.jpg);
-        height: 574px;
+        background-image: url(/img/989511\ 1399.jpg);
+        height: 674px;
     }
 
     .mainTitle {
@@ -237,8 +258,8 @@ a.nav-link {
 
 @media (min-width:1399.98px) {
     .mainHeader {
-        background-image: url(/img/new-york-city-colors-2560.jpg);
-        height: 874px;
+        background-image: url(/img/989511\ 2560.jpg);
+        height: 974px;
     }
 
     .mainTitle {
