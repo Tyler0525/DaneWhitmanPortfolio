@@ -139,14 +139,16 @@ a.nav-link {
 /*******Project Cards Styles*******/
 .projectCard {
     width: 19rem;
-    background-color: #000000;
+    background-color: #1f1f1f;
     
 }
 
 
 /*****Modal Card Style*****/
 
-
+.modal-content {
+    background-color: #1f1f1f !important;
+}
 
 
 /*------- MEDIA QUERIES-------*/
