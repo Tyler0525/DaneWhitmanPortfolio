@@ -64,6 +64,9 @@ a.nav-link {
     color: #127c62 !important;
 }
 
+.navbar-toggler{
+    color:#127c62 !important;
+}
 
 /* styling the main title*/
 .mainTitle {
